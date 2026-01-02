@@ -1,0 +1,44 @@
+:root {
+  /* Vibrant Kid-Friendly Palette */
+  --color-primary: #FF6B35;   /* Energetic Orange */
+  --color-secondary: #2EC4B6; /* Playful Teal */
+  --color-accent: #FFD166;    /* Sunny Yellow */
+  --color-success: #06D6A0;   /* Bright Green */
+  --color-error: #EF476F;     /* Rose Red */
+  
+  --color-text-main: #2D3142; /* Dark Blue-Grey for readability */
+  --color-text-light: #4F5D75;
+  
+  --color-bg-body: #F7F9F9;   /* Off-white/Alice Blue */
+  --color-bg-card: #FFFFFF;
+  
+  --font-family-main: "Comic Neue", "Fredoka", sans-serif; /* Playful fonts */
+  
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --shadow-card: 0 8px 16px rgba(0,0,0,0.1);
+  --shadow-button: 0 4px 0 rgba(0,0,0,0.2); /* 3D effect */
+  --shadow-button-active: 0 2px 0 rgba(0,0,0,0.2);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-main);
+  background-color: var(--color-bg-body);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}

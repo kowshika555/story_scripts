@@ -1,0 +1,31 @@
+@import './styles/variables.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--color-bg-body);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-main);
+  color: var(--color-text-main);
+}
+
+#root {
+  flex: 1;
+  display: block;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+  transform: translateY(2px);
+}
